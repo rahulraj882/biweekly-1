@@ -1,0 +1,32 @@
+/* Table.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white; /* Set background color to white */
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: black; /* Ensures text color stands out against white background */
+  }
+  
+  thead {
+    background-color: #f0f0f0; /* Lighter header background for contrast */
+    color: #333; /* Darker text color for better readability */
+  }
+  
+  tbody tr:hover {
+    background-color: #f2f2f2; /* Add hover effect for rows */
+  }
+  
+  .clickable-name {
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .clickable-name:hover {
+    text-decoration: underline;
+  }
+  
